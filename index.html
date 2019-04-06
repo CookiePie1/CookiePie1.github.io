@@ -20,11 +20,26 @@
       <a class="navbar-item" href="#why">Why Choose Science Olympiad? | </a>
     </nav>
 <section>
-  <img class="mySlides" src="https://github.com/CookiePie1/CookiePie1.github.io/blob/master/img1.JPG" style="width:100%">
-  <img class="mySlides" src="https://github.com/CookiePie1/CookiePie1.github.io/blob/master/img2.jpg" style="width:100%">
-  <img class="mySlides" src="https://github.com/CookiePie1/CookiePie1.github.io/blob/master/img3.JPG" style="width:100%">
+  <img class="mySlides" src="https://ibb.co/j4khbCW" style="width:100%">
+  <img class="mySlides" src="https://ibb.co/B39BNnK" style="width:100%">
+  <img class="mySlides" src="https://ibb.co/hC81MjV" style="width:100%">
 </section>
+    <script>
+      var slideIndex = 0;
+carousel();
 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); 
+}
+    </script>
     <div id="main">
       <h1>Welcome to Science Olympiad!!</h1>
       <p>
