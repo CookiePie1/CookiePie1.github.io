@@ -19,7 +19,7 @@
       <a class="navbar-item" href="#contact">Contact | </a>
       <a class="navbar-item" href="#why">Why Choose Science Olympiad? | </a>
     </nav>
-    <section>
+    /* <section>
   <img class="mySlides" src="https://imgur.com/HFyKxX6" style="width:100%">
   <img class="mySlides" src="https://imgur.com/4PwCx39" style="width:100%">
   <img class="mySlides" src="https://imgur.com/9JXdjWd" style="width:100%">
@@ -39,7 +39,32 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 3000);
 }
+</script> */
+    
+    <section>
+  <img class="mySlides" src="img_band_la.jpg" style="width:100%">
+  <img class="mySlides" src="img_band_ny.jpg" style="width:100%">
+  <img class="mySlides" src="img_band_chicago.jpg" style="width:100%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
 </script>
+
 
     <div id="main">
       <h1>Welcome to Science Olympiad!!</h1>
