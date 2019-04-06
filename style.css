@@ -29,3 +29,44 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+#question {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: red;
+}
+#question1 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: red;
+}
+#question2 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: red;
+}
+#question3 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: red;
+}
+#question4 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: red;
+}
+#answer {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: green
+}
+#answer1 {
+font-family: "Open Sans", helvetica, arial, sans-serif;
+color: green
+}
+#answer2 {
+font-family: "Open Sans", helvetica, arial, sans-serif;
+color: green;
+}
+#answer3 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: green;
+}
+#answer4 {
+ font-family: "Open Sans", helvetica, arial, sans-serif;
+ color: green;
+}
