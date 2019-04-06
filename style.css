@@ -2,10 +2,14 @@ body {
   font-family: "Open Sans", helvetica, arial, sans-serif;
 }
 
-h1 {
+#welcomeTitle {
   color: #4E92DF;
+  font-size: 20pt;
 }
 
+#mainDescription {
+ font-size: 16pt; 
+}
 p {
   color: DimGray;
 }
@@ -93,12 +97,4 @@ li a {
 
 li a:hover {
   background-color: #111;
-}
-
-#welcomeTitle {
-  fontsize: 20px;
-}
-
-#mainDescription {
-  fontsize: 16px;
 }
