@@ -2,4 +2,4 @@
 
 Our project for HackSB 2019. 
 
-Website for the SBHS Science Olympiad Team
+Website for the SBHS Science Olympiad Team. Created by Jinay Shah and John Yang. 
