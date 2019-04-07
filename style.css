@@ -100,3 +100,7 @@ color: green;
 .navitem a:hover {
   background-color: #111;
 }
+
+.contact {
+list-style-type: none;
+}
