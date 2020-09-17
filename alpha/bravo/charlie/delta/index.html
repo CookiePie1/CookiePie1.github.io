@@ -21,20 +21,30 @@
         }
         html {
             scroll-behavior: smooth;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 3px;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+        /* Optional: show position indicator in red */
+        ::-webkit-scrollbar-thumb {
+            background: #000000;
         }
     </style>
 </head>
 <body>
 <div class="background">
     <main role="main" class="container-fluid">
-        <br>
+
         <div class="row">
             <div class="col-1"></div>
             <div class="col-1 left-bar"></div>
             <div class="col-1"></div>
-            <div class="col-6">
+            <div class="col-6"><br>
                 <h1 class="display-4 text-center">Circuit Lab Tryouts</h1>
-                <h2 class="text-muted text-center">South Brunswick High School Science Olympiad 2020-2021</h2><br>
+                <h2 class="text-muted text-center">South Brunswick High School Science Olympiad <br>2020-2021</h2><br>
                 <div style="min-height:100vh;">
                     <h5>Directions</h5>
                     <ul>
@@ -44,7 +54,7 @@
                         <li>Assume that all batteries, wires, and meters are ideal unless otherwise stated</li>
                         <li>Assume gravitational effects are negligible unless otherwise stated</li>
                         <li>Tiebreakers will be marked using two asterisks (**) next to the question’s point value.  They are ranked in the order in which they appear.</li>
-                        <li>There are two Google forms. For <a href="https://forms.gle/Sz2pqD2hU6AeH9JH6" target="_blank">the first one</a>, input your final numerical answers. If the question is purely text based, you can type your response there as well. Show your work on a separate sheet of paper and upload that to <a href="https://forms.gle/2L8NK6jVp4a5xmrg8" target="_blank">the second Google form</a> within 5 minutes after the test ends. If you choose to write text-based questions by hand, please indicate that on the first Google form under the input field for that question.</li>
+                        <li>There are two Google forms. For <a href="https://forms.gle/Sz2pqD2hU6AeH9JH6">the first one</a>, input your final numerical answers. If the question is purely text based, you can type your response there as well. Show your work on a separate sheet of paper and upload that to <a href="https://forms.gle/2L8NK6jVp4a5xmrg8">the second Google form</a> within 5 minutes after the test ends. If you choose to write text-based questions by hand, please indicate that on the first Google form under the input field for that question.</li>
                     </ul>
                     <a href="#test" type="button" class="btn btn-warning">Continue</a>
                 </div>
@@ -89,7 +99,7 @@
                     </li>
                     <li>
                         What is the value and tolerance of the resistor below? [1 pts]<br>
-                        <img src="five.png" alt="problem five" width="50%">
+                        <img src="five.png" alt="problem five" width="30%">
                     </li>
                     <li>
                         Label the following LED: [0.25 pts each]<br>
@@ -176,12 +186,13 @@
                 <br><br>
                 <h3 class="text-center">Thank you for trying out!</h3>
                 <h6 class="text-center">One last note - if you eligible to do so, register to <a href="https://vote.org">vote</a> and make your voice heard!</h6>
+                <br><br>
             </div>
             <div class="col-1"></div>
             <div class="col-1 right-bar"></div>
             <div class="col-1"></div>
         </div>
-    </main><br>
+    </main>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
