@@ -1,2 +1,12 @@
 /* Style.scss */
+@use 'global';
+
+#LIB-bg {
+    background-image: url("/images/justin-kauffman-76nmyPlf3Y0-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 

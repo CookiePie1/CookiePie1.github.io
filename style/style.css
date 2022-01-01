@@ -1,3 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body, html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.vr {
+  border-left: 1px solid #343a40;
+  height: 200%;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav .active {
+  font-weight: 500;
+}
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.header {
+  line-height: 1;
+  border-bottom: 1px solid #343a40;
+}
+
+.footer {
+  background-color: white;
+}
+
+.link-no-color {
+  color: inherit;
+  text-decoration: none;
+}
+.link-no-color :hover {
+  color: #007bff;
+}
+
+.show-md {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .show-mobile {
+    display: none;
+  }
+
+  .show-md {
+    display: block;
+  }
+}
+.items-center {
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-purple {
+  color: #5405e7;
+}
+
+.img-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #d23ef0;
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #8b07a8;
+  border-color: #33004f;
+}
+
 /* Style.scss */
+#LIB-bg {
+  background-image: url("/images/justin-kauffman-76nmyPlf3Y0-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
